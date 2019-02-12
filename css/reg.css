@@ -1,0 +1,267 @@
+@charset "UTF-8";
+@import "//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css";
+.hidden {
+  display: none; }
+
+.reg_form, .authorization_form, .reset_form {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 60;
+  background-color: #1c1c27; }
+  .reg_form .reg-navbar, .reg_form .authorization-navbar, .reg_form .reset-navbar, .authorization_form .reg-navbar, .authorization_form .authorization-navbar, .authorization_form .reset-navbar, .reset_form .reg-navbar, .reset_form .authorization-navbar, .reset_form .reset-navbar {
+    height: 75px;
+    width: 100%;
+    background-color: #1a1a25;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 3;
+    display: block;
+    padding: 20px; }
+    .reg_form .reg-navbar .bar_wrap, .reg_form .authorization-navbar .bar_wrap, .reg_form .reset-navbar .bar_wrap, .authorization_form .reg-navbar .bar_wrap, .authorization_form .authorization-navbar .bar_wrap, .authorization_form .reset-navbar .bar_wrap, .reset_form .reg-navbar .bar_wrap, .reset_form .authorization-navbar .bar_wrap, .reset_form .reset-navbar .bar_wrap {
+      width: 100%;
+      height: 100%;
+      margin: 0 auto; }
+      .reg_form .reg-navbar .bar_wrap .logo_cont, .reg_form .authorization-navbar .bar_wrap .logo_cont, .reg_form .reset-navbar .bar_wrap .logo_cont, .authorization_form .reg-navbar .bar_wrap .logo_cont, .authorization_form .authorization-navbar .bar_wrap .logo_cont, .authorization_form .reset-navbar .bar_wrap .logo_cont, .reset_form .reg-navbar .bar_wrap .logo_cont, .reset_form .authorization-navbar .bar_wrap .logo_cont, .reset_form .reset-navbar .bar_wrap .logo_cont {
+        display: inline-block;
+        width: 150px;
+        margin: 0;
+        height: 100%;
+        position: relative; }
+        .reg_form .reg-navbar .bar_wrap .logo_cont .navbar_brand, .reg_form .authorization-navbar .bar_wrap .logo_cont .navbar_brand, .reg_form .reset-navbar .bar_wrap .logo_cont .navbar_brand, .authorization_form .reg-navbar .bar_wrap .logo_cont .navbar_brand, .authorization_form .authorization-navbar .bar_wrap .logo_cont .navbar_brand, .authorization_form .reset-navbar .bar_wrap .logo_cont .navbar_brand, .reset_form .reg-navbar .bar_wrap .logo_cont .navbar_brand, .reset_form .authorization-navbar .bar_wrap .logo_cont .navbar_brand, .reset_form .reset-navbar .bar_wrap .logo_cont .navbar_brand {
+          text-decoration: none;
+          width: 100%;
+          height: 100%;
+          display: inline-block; }
+          .reg_form .reg-navbar .bar_wrap .logo_cont .navbar_brand img, .reg_form .authorization-navbar .bar_wrap .logo_cont .navbar_brand img, .reg_form .reset-navbar .bar_wrap .logo_cont .navbar_brand img, .authorization_form .reg-navbar .bar_wrap .logo_cont .navbar_brand img, .authorization_form .authorization-navbar .bar_wrap .logo_cont .navbar_brand img, .authorization_form .reset-navbar .bar_wrap .logo_cont .navbar_brand img, .reset_form .reg-navbar .bar_wrap .logo_cont .navbar_brand img, .reset_form .authorization-navbar .bar_wrap .logo_cont .navbar_brand img, .reset_form .reset-navbar .bar_wrap .logo_cont .navbar_brand img {
+            width: 37px;
+            height: 42px;
+            display: inline-block; }
+          .reg_form .reg-navbar .bar_wrap .logo_cont .navbar_brand .logo_name, .reg_form .authorization-navbar .bar_wrap .logo_cont .navbar_brand .logo_name, .reg_form .reset-navbar .bar_wrap .logo_cont .navbar_brand .logo_name, .authorization_form .reg-navbar .bar_wrap .logo_cont .navbar_brand .logo_name, .authorization_form .authorization-navbar .bar_wrap .logo_cont .navbar_brand .logo_name, .authorization_form .reset-navbar .bar_wrap .logo_cont .navbar_brand .logo_name, .reset_form .reg-navbar .bar_wrap .logo_cont .navbar_brand .logo_name, .reset_form .authorization-navbar .bar_wrap .logo_cont .navbar_brand .logo_name, .reset_form .reset-navbar .bar_wrap .logo_cont .navbar_brand .logo_name {
+            margin-left: 10px;
+            font-size: 24px;
+            font-weight: 700;
+            text-transform: uppercase;
+            display: inline;
+            color: #ffffff;
+            position: absolute;
+            top: -4px;
+            font-family: Raleway;
+            font-weight: 600; }
+          .reg_form .reg-navbar .bar_wrap .logo_cont .navbar_brand .logo_inter, .reg_form .authorization-navbar .bar_wrap .logo_cont .navbar_brand .logo_inter, .reg_form .reset-navbar .bar_wrap .logo_cont .navbar_brand .logo_inter, .authorization_form .reg-navbar .bar_wrap .logo_cont .navbar_brand .logo_inter, .authorization_form .authorization-navbar .bar_wrap .logo_cont .navbar_brand .logo_inter, .authorization_form .reset-navbar .bar_wrap .logo_cont .navbar_brand .logo_inter, .reset_form .reg-navbar .bar_wrap .logo_cont .navbar_brand .logo_inter, .reset_form .authorization-navbar .bar_wrap .logo_cont .navbar_brand .logo_inter, .reset_form .reset-navbar .bar_wrap .logo_cont .navbar_brand .logo_inter {
+            position: absolute;
+            left: 48px;
+            top: 24px;
+            font-size: 12px;
+            font-weight: 100;
+            text-transform: uppercase;
+            color: #ffffff;
+            font-family: Raleway;
+            font-weight: 100; }
+
+.controls ul {
+  list-style-type: none;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 380px;
+  text-align: left;
+  padding: 0px;
+  color: #ff9e38;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 100; }
+
+.reg-wrap, .authorization-wrap, .reset-wrap {
+  margin-top: 130px;
+  text-align: center;
+  color: #babcc1;
+  width: 100%;
+  height: 100%; }
+  .reg-wrap h2, .authorization-wrap h2, .reset-wrap h2 {
+    font-family: Roboto;
+    font-size: 35px;
+    font-weight: 100;
+    color: #e7e7e7; }
+
+.main-form, .authorization-form, .reset-form {
+  margin-top: 21px; }
+  .main-form button, .authorization-form button, .reset-form button {
+    width: 201px;
+    height: 47px;
+    border-radius: 40px;
+    background: linear-gradient(to right, #fa6231 0%, #ff9e38 100%);
+    border: none;
+    color: #ffffff;
+    font-family: Raleway;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 500;
+    margin-top: 14px; }
+    .main-form button:hover, .authorization-form button:hover, .reset-form button:hover {
+      cursor: pointer;
+      box-shadow: 0 0 10px #ff9e38; }
+
+.label-wrap {
+  width: 380px;
+  margin: 0 auto;
+  text-align: left; }
+  .label-wrap label {
+    margin-bottom: 5px;
+    font-weight: 100; }
+
+input {
+  width: 380px;
+  height: 40px;
+  background-color: #1a1a25;
+  color: white;
+  border: 1px solid #363643;
+  padding-left: 10px;
+  font-family: Roboto;
+  font-size: 15px;
+  margin-bottom: 3px; }
+  input::-moz-placeholder {
+    color: #4d4d55;
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 300; }
+  input::-webkit-input-placeholder {
+    color: #4d4d55;
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 300; }
+  input:focus {
+    border: 1px solid #007c9b;
+    outline: none !important; }
+
+.checkbox {
+  display: none;
+  background-color: #1a1a25; }
+  .checkbox:checked + .check-lab:before {
+    content: ""; }
+
+.check-lab {
+  width: 380px;
+  font-size: 13px;
+  line-height: 19px;
+  font-weight: 100; }
+  .check-lab a {
+    color: #db6c25; }
+  .check-lab:before {
+    content: "";
+    color: #808083;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    text-align: center;
+    font-family: FontAwesome;
+    font-size: 20px;
+    letter-spacing: 10px; }
+
+.question, .or {
+  margin-top: 43px;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 100; }
+  .question:before, .question:after, .or:before, .or:after {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    width: 96px;
+    height: 1px;
+    vertical-align: middle;
+    background: rgba(186, 188, 193, 0.2); }
+  .question:after, .or:after {
+    margin-left: 10px; }
+  .question:before, .or:before {
+    margin-right: 10px; }
+
+.reg_form .authorization {
+  display: inline-block;
+  width: 201px;
+  height: 47px;
+  border-radius: 40px;
+  font-family: Raleway;
+  text-transform: uppercase;
+  font-size: 19px;
+  font-weight: 500;
+  margin-top: 14px;
+  color: #989898;
+  background: transparent;
+  border: 1px solid rgba(152, 152, 152, 0.8);
+  font-weight: 200; }
+  .reg_form .authorization:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px #007c9b;
+    text-decoration: none;
+    color: #007c9b;
+    border: 1px solid #007c9b; }
+  .reg_form .authorization span {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center; }
+
+.authorization_form .authorization-wrap .enter-button {
+  margin-top: 22px;
+  border-radius: 40px;
+  font-family: Raleway;
+  text-transform: uppercase;
+  font-size: 19px;
+  font-weight: 500; }
+.authorization_form .authorization-wrap .reset-button {
+  display: block;
+  background: transparent;
+  margin: 0 auto;
+  font-size: 15px;
+  font-weight: 100;
+  text-transform: none;
+  margin-top: 25px;
+  color: #ff9e38; }
+  .authorization_form .authorization-wrap .reset-button:hover {
+    box-shadow: none; }
+.authorization_form .authorization-wrap .or {
+  margin-top: 30px;
+  text-transform: uppercase; }
+.authorization_form .authorization-wrap .register-button {
+  background: transparent;
+  font-weight: 300;
+  color: #767676;
+  border: 1px solid #767676;
+  border-radius: 40px;
+  font-family: Raleway;
+  text-transform: uppercase;
+  font-size: 19px;
+  font-weight: 500; }
+  .authorization_form .authorization-wrap .register-button:hover {
+    color: #007c9b;
+    border: 1px solid #007c9b;
+    box-shadow: 0 0 10px #007c9b; }
+
+.reset_form .reset-wrap .reset-message {
+  display: block;
+  width: 333px;
+  margin: 0px auto;
+  font-size: 15px;
+  font-weight: 100;
+  font-family: Roboto;
+  margin-top: 28px; }
+.reset_form .reset-wrap .reset-button {
+  margin-top: 40px;
+  background: #32323e;
+  border-radius: 40px;
+  font-family: Raleway;
+  text-transform: uppercase;
+  font-size: 19px;
+  font-weight: 500; }
+  .reset_form .reset-wrap .reset-button:hover {
+    box-shadow: 0 0 10px #007c9b;
+    color: #007c9b;
+    border: 1px solid #007c9b;
+    background: transparent; }
+
+/*# sourceMappingURL=reg.css.map */

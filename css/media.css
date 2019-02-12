@@ -1,0 +1,395 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .main_head .bar_wrap {
+        width: 992px;
+    }
+    .main_head .navbar .menu
+    {
+        margin-left: 5px;
+        width: 530px;
+    }
+    .main_head .navbar .bar_wrap .menu li {
+        padding: 0 15px;
+    }
+    .main_head .navbar .sign_in
+    {
+        margin-left: 0px
+    }
+    .s_footer .copy_wrap .copyright {
+        width: 900px;
+    }
+    .s_footer .ft_wrap {
+        width: 992px;
+    }
+    .s_footer .ft_logo_wrap {
+        width: 250px;
+    }
+    .ft_wrap .ft_about {
+        padding-left: 20px;
+        width: 93px;
+    }
+    .ft_wrap .ft_tools {
+        padding-left: 32px;
+        width: 188px;
+    }
+    .ft_wrap .ft_legal {
+        width: 210px;
+        padding-left: 16px;
+    }
+    .ft_wrap .ft_info {
+        padding-left: 25px;
+        width: 210px;
+    }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .main_head {
+        background: #191a24 url(../img/main_bg1.png) center top no-repeat;
+    }
+    .main_head .bar_wrap {
+        width: 768px;
+    }
+    .main_head .navbar .menu
+    {
+        margin-left: 5px;
+        width: 418px;
+    }
+    .main_head .navbar .bar_wrap .menu li {
+        padding: 0 5px;
+    }
+    .main_head .navbar .sign_in
+    {
+        margin-left: 0px
+    }
+    .main_head .bar_wrap .sign_in{
+        width: 185px;
+    }
+    .main_head .bar_wrap .sign_in .signin_btn {
+        margin-right: 2px;
+        width: 60px;
+        height: 30px;
+    }
+    .main_head .bar_wrap .sign_in .register {
+        width: 115px;
+        height: 30px;
+    }
+    .s_indicators {
+        height: auto;
+    }
+    .s_advantages {
+        height: auto;
+    }
+    .s_footer .copy_wrap .copyright
+    {
+        width: 760px;
+    }
+    .about .ab_bit {
+        margin-bottom: 10px;
+    }
+    .open_an_account {
+        margin-top: 170px;
+    }
+    .s_footer .ft_logo_wrap {
+        width: 225px;
+    }
+    .s_footer h3 {
+        font-size: 15px;
+    }
+    .s_footer ul li {
+        padding: 5px 0;
+        letter-spacing: -1px;
+    }
+    .s_footer .ft_social li {
+        padding: 0;
+    }
+    .s_footer .ft_social {
+        margin-top: 120px;
+    }
+    .s_footer .copy_wrap {
+        margin-top: 0;
+    }
+    .s_footer .copy_wrap .copyright .ft_address {
+        padding-left: 0px;
+        width: 458px;
+    }
+    .open_an_account {
+     margin-top: 170px;
+    }
+    .open_an_account h3{
+        font-size: 24px;
+    }
+    .open_an_account a {
+        margin-left: 10px;
+        margin-top: 2px
+    }
+    .s_footer .ft_wrap {
+        width: 769px;
+    }
+    .ft_wrap .ft_about {
+        padding-left: 10px;
+    }
+    .ft_wrap .ft_tools {
+        padding-left: 0px;
+        width: 100px;
+    }
+    .ft_wrap .ft_legal {
+        width: 156px;
+        padding-left: 16px;
+    }
+    .ft_wrap .ft_info {
+        width: 174px;
+        padding-left: 17px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .main_head .bar_wrap {
+        width: 100%;
+    }
+    .main_head .navbar .menu
+    {
+        display: none;
+    }
+    .main_head .navbar .bar_wrap .sign_in {
+        display: none;
+    }
+    .main_head .bar_wrap .logo_cont{
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    .about .ab_bit {
+        margin-bottom: 35px;
+    }
+
+    .schedul_wrap {
+        margin-top: 50px;
+        padding: 0;
+        margin-bottom: 25px;
+    }
+    .indicators_wrap .border_wrap {
+        height: 100%;
+    }
+    .about {
+        margin-top: 20px;
+    }
+    .s_advantages p {
+        margin-bottom: 70px;
+    }
+    .s_advantages {
+        height: auto;
+    }
+    .open_an_account h3 {
+        font-size: 21px;
+        margin-bottom: 5px
+    }
+    .open_an_account {
+        height: auto;
+        margin-top: 100px
+    }
+    .open_an_account a {
+        margin-top: 2px;
+        margin-bottom: 23px;
+    }
+    .s_footer .ft_logo_wrap {
+        width: 100%;
+    }
+    .s_footer .copy_wrap .copyright
+    {
+        width: 480px;
+    }
+    .ft_wrap {
+        display: none;
+    }
+    .s_indicators {
+        margin-bottom: 50px;
+    }
+
+}
+@media only screen and (max-width : 767px) {
+
+    .ft_wrap .ft_about {
+        margin-left: 0px;
+    }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .open_an_account a {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .s_advantages {
+        height: auto;
+        background: #191a24 url(../img/mob_bg_adv.png) center no-repeat;
+        background-size: 100%;
+        -moz-background-size: 100%;
+        -webkit-background-size: 100%;
+        -o-background-size: 100%;
+    }
+    .open_an_account {
+        height: auto;
+        margin-top: 40px;
+    }
+    .main_head .bar_wrap .logo_cont {
+        margin-left: 5px;
+    }
+    .mob_nav_btn {
+        width: 46px;
+        padding: 0px;
+    }
+    .main_head .top_wrapper .top_centered .main_logo img {
+        height: 76px;
+        width: 70px;
+    }
+    .main_head .top_wrapper .top_centered h1 {
+        font-size: 62px;
+    }
+    .main_head .top_wrapper .top_centered p {
+        font-size: 16px;
+    }
+    .indicators_wrap .border_wrap {
+        padding-top: 0px;
+    }
+    .indicators_wrap .border_wrap {
+        border-bottom: none;
+    }
+    .authorization_form .authorization-wrap {
+        margin-top: 80px;
+    }
+    .reg_form .control ul, .authorization_form .control ul, .reset_form .control ul {
+        width: 300px;
+    }
+    .reg-wrap input, .authorization-wrap input, .reset-wrap input {
+        width: 300px;
+    }
+    .reg-wrap .label-wrap, .authorization-wrap .label-wrap, .reset-wrap .label-wrap {
+        width: 300px;
+    }
+    .authorization_form .authorization-wrap .authorization-form .reset-button {
+        margin-top: 11px;
+    }
+    .authorization_form .authorization-wrap .authorization-form .or {
+        margin-top: 0px;
+    }
+    .reg_form .reg-wrap {
+        margin-top: 80px;
+    }
+    .reg_form .check-lab {
+        width: 300px;
+    }
+    .s_indicators p {
+        margin-bottom: 32px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    .s_advantages {
+        height: auto;
+    }
+    .shield, .dollar, .teamwork {
+        margin-bottom: 27px;
+    }
+    .s_advantages p {
+        margin-bottom: 62px
+    }
+    .mob_nav_btn {
+        width: 46px;
+        padding: 0px;
+    }
+    .s_indicators {
+        height: auto;
+        margin-bottom: 0px;
+    }
+    .about {
+        margin-left: 10px;
+    }
+    .schedul_wrap img {
+        margin-left: 10px;
+        width: 275px;
+    }
+    .indicators_wrap .border_wrap {
+        padding-top: 0px;
+    }
+    .s_indicators p {
+        margin-bottom: 2.5em;
+    }
+    .open_an_account {
+        margin-top: 50px;
+    }
+    .reg_form .reg-wrap {
+        margin-top: 70px;
+    }
+    .reg-wrap h2 {
+        font-size: 31px;
+    }
+    .reg-wrap input {
+        height: 35px;
+    }
+    .check-lab {
+        font-size: 19px;
+    }
+    .reg-wrap .main-form button {
+        margin-top: 0px;
+        font-size: 16px;
+        width: 180px;
+        height: 43px;
+    }
+    .reg-wrap .main-form .question {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    .reg-wrap .main-form .question:before, .reg-wrap .main-form .question:after {
+        width: 40px;
+    }
+    .main-form .check-lab {
+        font-size: 11px;
+    }
+    .reg_form .main-form {
+        margin-top: 0px;
+    }
+    .reg_form .main-form .authorization {
+        margin-top: 0px;
+        font-size: 16px;
+        width: 180px;
+        height: 43px;
+    }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 769px) {
+    .mob_nav_btn {
+        display: none;
+    }
+    .mob_ft {
+        display: none;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
